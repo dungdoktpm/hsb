@@ -1,0 +1,40 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: $color-normal;
+  line-height: 2.6rem;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+  text-decoration: none;
+  color: $color-white;
+}
+// btn
+
+
+//fleft
+.fleft {
+  float: left;
+}
+// pt
+
+
+// zindex
+

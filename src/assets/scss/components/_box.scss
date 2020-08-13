@@ -1,0 +1,30 @@
+.box {
+  padding: 2rem 1.5rem;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: -1.4rem;
+    left: -2rem;
+    
+    content: "";  
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 0.2;
+    z-index: -1;
+  }
+}
+
+
+.box__title {
+  padding-bottom: 15px;
+  font-size: $font-size-heading ;
+  font-weight: $font-semibold;
+  color: $color-heading-title
+}
+
+
+
+

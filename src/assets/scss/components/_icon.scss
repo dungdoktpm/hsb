@@ -1,0 +1,36 @@
+.icon {
+  font-size: 3.4rem;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+ 
+}
+
+.icon1 {
+  background-color: rgba($color:$color1, $alpha: 0.2);
+  
+  & .las {
+    color: $color1; 
+  }
+
+}
+.icon2 {
+  background-color: rgba($color:$color2, $alpha: 0.2);
+  
+  & .las {
+    color: $color2; 
+  }
+
+}
+.icon3 {
+  background-color: rgba($color:$color3, $alpha: 0.2);
+  
+  & .las {
+    color: $color3; 
+  }
+
+}

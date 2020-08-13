@@ -1,0 +1,29 @@
+
+.header-menu {
+ 
+  margin-left: 51.35rem;
+  // margin-left: 513.5px;
+  
+}
+
+.header__list-menu {
+  display: inline-block;
+  padding: 22px 0;
+}
+.header__menu-item {
+  display: inline-block;
+  
+}
+.header__menu-link {
+  display: block;
+  padding:0 25px;
+  color: $color-text-menu;
+}
+
+.header__menu-item:first-child .header__menu-link{
+  padding-left: 0 !important;
+}
+
+.group-btn {
+  display: inline-block;
+}

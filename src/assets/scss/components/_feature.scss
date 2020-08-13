@@ -1,0 +1,20 @@
+.section-feature {
+  padding: 8rem 0;
+}
+
+.feature__item {
+  padding: 3rem;
+  background-color: $color-white;
+  border-radius: 20px;
+  margin: 1.5rem;
+  margin-top: 3rem !important;
+  
+}
+
+.feature__title {
+  font-size: $font-size-text;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: $font-semibold;
+  color: $color-heading-title;
+}

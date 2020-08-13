@@ -1,0 +1,17 @@
+.heading {
+  max-width: 62rem;
+  margin: 0 auto;
+}
+
+.heading__title {
+  font-size: $font-size-title;
+  color: $color-heading-title ;
+  font-weight: $font-semibold;
+  margin-bottom: 2rem;
+  & span {
+    color:$color-primary !important;
+  }
+}
+
+
+

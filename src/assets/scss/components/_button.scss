@@ -1,0 +1,16 @@
+.btn {
+  font-size: $font-size-button;
+  padding: 12px;
+  font-weight: $font-semibold;
+  color: $color-white;
+  display: inline-block;
+  border-radius:1rem;
+}
+.btn-primary {
+  background-color: $color-primary;
+}
+.btn-success {
+  background-color: $color-success;
+}
+
+
