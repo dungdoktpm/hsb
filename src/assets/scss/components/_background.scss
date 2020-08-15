@@ -4,7 +4,7 @@
     content: "";
     display: block;
     padding: 8rem 0 9rem;
-    background:$color-bg ;
+    background:$color-bg-full ;
     border-radius: 40px;
     position: absolute;
     right: 15px;
@@ -12,6 +12,20 @@
     top: 0;
     bottom: 0;
     z-index: -1;
+  }
+  &--haft {
+    content: "";
+    display: block;
+    padding: 8rem 0 9rem;
+    background: $color-bg-haft;
+    border-radius: 40px;
+    position: absolute;
+    right: 15px;
+    left: -60px;
+    top: -55px;
+    bottom: -55px;
+    z-index: -1;
+    width: 50%;
   }
   
 }

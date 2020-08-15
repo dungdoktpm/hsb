@@ -7,12 +7,10 @@
   align-items: center;
   border-radius: 50%;
   position: relative;
- 
 }
 
 .icon1 {
-  background-color: rgba($color:$color1, $alpha: 0.2);
-  
+  background-color: rgba($color:$color1, $alpha: 0.2); 
   & .las {
     color: $color1; 
   }

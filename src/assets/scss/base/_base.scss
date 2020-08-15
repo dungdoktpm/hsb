@@ -19,13 +19,18 @@ body {
   color: $color-normal;
   line-height: 2.6rem;
 }
-a {
+a, a:hover {
 	text-decoration:none;
 }
-a:hover {
-  text-decoration: none;
-  color: $color-white;
+
+img {
+  width: 100%;
+  
 }
+// a:hover {
+//   text-decoration: none;
+//   color: $color-white;
+// }
 // btn
 
 

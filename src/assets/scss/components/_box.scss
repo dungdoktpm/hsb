@@ -1,29 +1,46 @@
 .box {
   padding: 2rem 1.5rem;
-  position: relative;
-
-  &::after {
+  // position: relative;
+  &__title {
+    position: relative;
+    padding-bottom: 15px;
+    font-size: $font-size-heading;
+    font-weight: $font-semibold;
+    color: $color-heading-title;
+  }
+  &__title::after {
     position: absolute;
-    top: -1.4rem;
-    left: -2rem;
-    
+    top: -31px;
+    left: -36px;
     content: "";  
     width: 79px;
     height: 79px;
     border-radius: 50%;
-    background-color: red;
-    opacity: 0.2;
+    opacity: 0.3;
     z-index: -1;
   }
 }
 
-
-.box__title {
-  padding-bottom: 15px;
-  font-size: $font-size-heading ;
-  font-weight: $font-semibold;
-  color: $color-heading-title
+.box-title--color1::after {
+  background-color: $color1;
 }
+
+.box-title--color2::after {
+  background-color: $color2;
+}
+
+.box-title--color3::after {
+  background-color: $color3;
+}
+
+.box-title--color4::after {
+  background-color: $color4;
+}
+
+
+
+
+
 
 
 
