@@ -24,9 +24,8 @@
   background-color: $color-radion-active !important;
 }
 
-
-
 .quote__icon {
+  font-size: 100px;
   display: inline-block;
   width: 92px ;
   height: 92px ;
@@ -38,10 +37,15 @@
   opacity: 0.3;
 }
 
-.quote__icon::after {
-  content: " ";
+.quote__icon::before {
+  font-family: 'Line Awesome Free';
+  font-weight: 900;
+  content: "\f10e";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-50%);
+  color: #5E68F9;
+  // color: $color-primary;
 
 }

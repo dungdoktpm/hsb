@@ -1,5 +1,5 @@
 .box {
-  padding: 2rem 1.5rem;
+  padding: 2rem 0;
   // position: relative;
   &__title {
     position: relative;
@@ -10,8 +10,9 @@
   }
   &__title::after {
     position: absolute;
-    top: -31px;
-    left: -36px;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
     content: "";  
     width: 79px;
     height: 79px;

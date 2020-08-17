@@ -23,8 +23,18 @@
 
 .aspect-ratio {
   position: relative;
-  // padding: 50%;
+  // padding-top: 50%;
+
+  &--img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
 }
+
 .category {
   position: absolute;
   top: -20px;
@@ -46,12 +56,15 @@
     width: 0;
     height: 0;
     border-top: 0 solid transparent;
-    border-bottom: 2.1rem solid transparent;
-    border-right: 1.4rem solid #616ae8;
+    border-bottom: 20px solid transparent;
+    border-right: 12px solid #616ae8;
     border-left: 0 solid transparent;
     position: absolute;
     transform: rotate(180deg);
-    right: -1.4rem;
+    right: -12px;
     top: 0;
+  }
+  &::after {
+    border-right-color: rgba($color: #000000, $alpha: 0.5) !important;
   }
 }

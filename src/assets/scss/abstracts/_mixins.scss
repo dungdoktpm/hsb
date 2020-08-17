@@ -1,28 +1,23 @@
-@mixin placeholder {
 
-	$placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+//reponsive
+@mixin breakpoint($point) {
+    @if $point == desktop {
+      @media (min-width: 991.98px) { @content ; }
+  }
+    @else if $point == laptop {
+      @media (max-width: 1199.98px) { @content ; }
+  }
+  @else if $point == tab-land {
+    @media (max-width: 991.98px) { @content ; }
+  }
+    @else if $point == tab-por {
+      @media (max-width: 767.98px) { @content ; }
+  }
+    @else if $point == phone {
+      @media (max-width: 575.98px)  { @content ; }
+  }
+  @else if $point == mobileonly {
+      @media (max-width: 500px)  { @content ; }
 
-	@each $placeholder in $placeholders {
-
-		&:#{$placeholder}-placeholder {
-
-	  		@content;
-
-		}
-	}
-}
-
-// background gradient color
-@mixin bgGradient($deg, $colorStart, $colorEnd) {
-	background-image: linear-gradient( $deg, $colorStart 0%, $colorEnd 100%);
-}
-
-
-@mixin textGradient($color1, $color2) {
-	display: inline-block;
-	background: -moz-linear-gradient(left, $color1 0%, $color2 100%);
-	background: -webkit-linear-gradient(left, $color1 0%, $color2 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: $color1;
+  }
 }
