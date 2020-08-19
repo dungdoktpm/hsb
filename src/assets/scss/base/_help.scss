@@ -4,18 +4,21 @@
   margin: 8rem 0;
 }
 
-// .container {
-//   max-width: 130rem;
-//   margin: 0 auto;
-// }
+.container {
+  max-width: 1440px;
+  margin:0  auto;
+  // padding: 0 10px;
+}
 
 .text-center {
   text-align: center;
 }
 
 //pt
-.pt22 { 
-  padding:2.2rem 0;
+.pt2240 { 
+  padding-top:2.2rem !important;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 //mt 
 .mt5 {

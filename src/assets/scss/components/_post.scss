@@ -1,6 +1,5 @@
 .post {
   display: block;
-  margin: 1.5rem;
   margin-top: 3rem !important;
   border-radius: 6px;
   box-shadow: 1px 1px 20px 1px #eee;
@@ -23,9 +22,9 @@
 
 .aspect-ratio {
   position: relative;
-  // padding-top: 50%;
+  padding-top: mathSizeImage(209,371);
 
-  &--img {
+  &__img {
     position: absolute;
     width: 100%;
     height: 100%;

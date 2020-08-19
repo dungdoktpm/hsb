@@ -1,3 +1,18 @@
+.section {
+  &--style01 {
+    padding: 0 50px;
+  }
+
+  &--style02 {
+    padding: 80px 70px;
+  }
+
+  &--style03 {
+    padding: 0 70px;
+  }
+ 
+}
+
 .section2 {
   &-content {
     margin-top: 90px;
